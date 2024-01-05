@@ -22,12 +22,12 @@ root2.render(heading2);
 
 const parent = React.createElement("div", {id : "parent"}, [
     React.createElement("div", {id : "child1"}, [
-        React.createElement("h1", {}, "I am an h1 Tag"),
-        React.createElement("h2", {}, "I am an h2 Tag")
+        React.createElement("h1", {}, "I am an h1 Tags"),
+        React.createElement("h2", {}, "I am an h2 Tags")
     ]), 
     React.createElement("div", {id : "child2"}, [
-        React.createElement("h1", {}, "I am an h1 Tag"),
-        React.createElement("h2", {}, "I am an h2 Tag") 
+        React.createElement("h1", {}, "I am an h1 Tags"),
+        React.createElement("h2", {}, "I am an h2 Tags") 
     ])
 ]);
 

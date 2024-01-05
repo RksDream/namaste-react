@@ -2958,14 +2958,14 @@ const parent = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
     /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
         id: "child1"
     }, [
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "I am an h1 Tag"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {}, "I am an h2 Tag")
+        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "I am an h1 Tags"),
+        /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {}, "I am an h2 Tags")
     ]),
     /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
         id: "child2"
     }, [
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "I am an h1 Tag"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {}, "I am an h2 Tag")
+        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "I am an h1 Tags"),
+        /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {}, "I am an h2 Tags")
     ])
 ]);
 root2.render(parent);
