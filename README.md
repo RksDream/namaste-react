@@ -1,3 +1,9 @@
 Namaste React
 
-Token : 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
+Token : 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
+
+#Parcel
+ - Dev Build (making a bundle of our app)
+ - Local Server (Host and Execute our app on Local Server)
+ - Automaticalyu Refreshed
+ - Parcel using File watching algorithm  - Written in C++
