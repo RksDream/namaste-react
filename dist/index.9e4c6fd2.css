@@ -1,5 +1,8 @@
-#parent {
+.parent {
   color: #8a2be2;
+  float: left;
+  margin-left: 10%;
+  position: relative;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

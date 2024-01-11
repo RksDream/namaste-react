@@ -1,3 +1,6 @@
-#parent {
+.parent {
     color: blueviolet;
+    float: left;
+    margin-left: 10%;
+    position: relative;
 }

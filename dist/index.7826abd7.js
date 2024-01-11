@@ -2949,11 +2949,11 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
 // Creating element from React
-const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "Idu ki Pandaa\uD83D\uDC6B..");
+const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {}, "Idu ki Pandaa\uD83D\uDC6B.. from React");
 console.log(heading);
 // Creating element from JSX
 const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-    children: "Idu ki Pandaa\uD83D\uDC6B.."
+    children: "Idu ki Pandaa\uD83D\uDC6B.. from JSXHeading"
 }, void 0, false, {
     fileName: "App.js",
     lineNumber: 13,
@@ -2961,7 +2961,9 @@ const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
 }, undefined);
 console.log(jsxHeading);
 const root = (0, _reactDomDefault.default).createRoot(document.getElementById("root"));
+const root2 = (0, _reactDomDefault.default).createRoot(document.getElementById("root2"));
 root.render(heading);
+root2.render(jsxHeading);
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {

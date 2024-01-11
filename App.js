@@ -5,16 +5,18 @@ import ReactDOM from "react-dom";
 const heading = React.createElement(
     "h1",
      {}, 
-     "Idu ki Pandaa👫..");
+     "Idu ki Pandaa👫.. from React");
 
      console.log(heading);
 
 // Creating element from JSX
-const jsxHeading = <h1>Idu ki Pandaa👫..</h1>
+const jsxHeading = <h1>Idu ki Pandaa👫.. from JSXHeading</h1>
 
 console.log(jsxHeading);
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const root2 = ReactDOM.createRoot(document.getElementById("root2"));
 
 root.render(heading);
+root2.render(jsxHeading);
