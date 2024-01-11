@@ -2963,10 +2963,32 @@ const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     columnNumber: 20
 }, undefined);
 console.log(jsxHeading);
+// React Functional Component
+// React functional component is a simple Javascript function which return JSX
+// React functional component is a simple Javascript function which return React element
+const HeadingComponent = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "Idu ki Pandaa\uD83D\uDC6B.. from Functional Component"
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 22,
+        columnNumber: 12
+    }, undefined);
+};
+_c = HeadingComponent;
 const root = (0, _reactDomDefault.default).createRoot(document.getElementById("root"));
 const root2 = (0, _reactDomDefault.default).createRoot(document.getElementById("root2"));
+const root3 = (0, _reactDomDefault.default).createRoot(document.getElementById("root3"));
 root.render(heading);
 root2.render(jsxHeading);
+// Rendering the functional component
+root3.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 34,
+    columnNumber: 14
+}, undefined));
+var _c;
+$RefreshReg$(_c, "HeadingComponent");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
