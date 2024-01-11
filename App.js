@@ -1,34 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const heading2 = React.createElement("h1", {id:"heading"}, "Hello Pandaa from React");
+// Creating element from React
+const heading = React.createElement(
+    "h1",
+     {}, 
+     "Idu ki Pandaa👫..");
 
-const root2 = ReactDOM.createRoot(document.getElementById("root"));
+     console.log(heading);
 
-root2.render(heading2);
+// Creating element from JSX
+const jsxHeading = <h1>Idu ki Pandaa👫..</h1>
+
+console.log(jsxHeading);
 
 
-//Below are examle to create complex html strucure in React
-{/* <div id = "parent">
-    <div id = "child">
-        <h1>I am an h1 tag</h1>
-        <h2>I am an h2 tag</h2>
-    </div>
-    <div id = "child2">
-        <h1>I am an h1 tag</h1>
-        <h2>I am an h2 tag</h2>
-    </div>
-</div> */}
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const parent = React.createElement("div", {id : "parent"}, [
-    React.createElement("div", {id : "child1"}, [
-        React.createElement("h1", {}, "I am an h1 Tags"),
-        React.createElement("h2", {}, "I am an h2 Tags")
-    ]), 
-    React.createElement("div", {id : "child2"}, [
-        React.createElement("h1", {}, "I am an h1 Tags"),
-        React.createElement("h2", {}, "I am an h2 Tags") 
-    ])
-]);
-
-root2.render(parent);
+root.render(heading);
